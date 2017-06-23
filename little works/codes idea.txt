@@ -1,0 +1,400 @@
+     <img src="https://farm8.staticflickr.com/7464/15787743468_536ae9bb28_z.jpg">
+
+
+
+	<img src="C:/Users/GREAT OLY/Pictures/anty B_files/oly22.jpg">
+
+
+<img src="C:/Users/GREAT OLY/Desktop/pic/oly8.jpg">
+
+
+
+
+make sure all the images is in folder "img" inside index.html folder, and try this code
+
+<a href="img/numbers-12.jpg"><img src="img/numbers-12.jpg" alt=""></a>
+section 3 lecture 15
+
+Local Src	Location Description
+src="sunset.gif"	picture file resides in same directory as .html file
+src="pics/sunset.gif"	picture file resides in the pics directory
+src="../sunset.gif"	picture resides one folder "up" from the .html file
+src="../pics/sunset.gif"	picture file resides in the pics directory, one folder "up" from the .html file.
+
+
+www.udemy.com
+damsamty16@gmail.com
+taiwo1993
+
+
+html <ul><li></li></ul>
+<button></button>
+
+
+CSS
+h1 {
+    color:purple;
+}
+
+button {
+  border: 2px solid #34495e;
+  background-color: #3498db;
+  color: green;   
+}
+
+
+very usefull site for web development 
+google mdn
+
+
+
+
+<p>
+  The Ruby-throated Hummingbird (<i>Archilocus colubris</i>)
+  is the most common hummingbird in Eastern North America.
+</p>
+
+<!-- foreign words -->
+<p>
+  The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
+  <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
+</p>
+
+<!-- a known misspelling -->
+<p>
+  Someday I'll learn how to <u>spel</u> better.
+</p>
+
+<!-- Highlight keywords in a set of instructions -->
+<ol>
+  <li>
+    <b>Slice</b> two pieces of bread off the loaf.
+  </li>
+  <li>
+    <b>Insert</b> a tomato slice and a leaf of
+    lettuce between the slices of bread.
+  </li>
+</ol>
+
+
+
+
+
+
+--------------------------------------------
+
+
+<ol>
+  <li>Remove the skin from the garlic, and chop coarsely.</li>
+  <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+  <li>Add all the ingredients into a food processor.</li>
+  <li>Process all the ingredients into a paste.
+    <ul>
+      <li>If you want a coarse "chunky" humous, process it for a short time.</li>
+      <li>If you want a smooth humous, process it for a longer time.</li>
+    </ul>
+  </li>
+</ol>
+
+--------------------------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used accross all the pages of our website -->
+
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+       <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+       <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+     </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <article>
+        <h2>Article heading</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <h3>subsection</h3>
+
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+
+        <h3>Another subsection</h3>
+
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+  </body>
+</html>
+
+------------------------------------------
+
+
+Element	Description
+<base>	The HTML <base> element specifies the base URL to use for all relative URLs contained within a document. There can be only one <base> element in a document.
+<head>	The HTML <head> element provides general information (metadata) about the document, including its title and links to its scripts and style sheets.
+<link>	The HTML <link> element specifies relationships between the current document and an external resource. Possible uses for this element include defining a relational framework for navigation. This Element is most used to link to style sheets.
+<meta>	The HTML <meta> element represents any metadata information that cannot be represented by one of the other HTML meta-related elements (<base>, <link>, <script>, <style> or <title>).
+<style>	The HTML <style> element contains style information for a document, or part of a document. By default, the style instructions written inside that element are expected to be CSS.
+<title>	The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored.
+Content sectioning
+Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.   
+
+Element	Description
+<address>	The HTML <address> element supplies contact information for its nearest <article> or <body> ancestor; in the latter case, it applies to the whole document.
+<article>	The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
+<aside>	The HTML <aside> element represents a section of a document with content connected tangentially to the main content of the document (often presented as a sidebar).
+<footer>	The HTML <footer> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.
+<h1–h6>	
+<header>	The HTML <header> element represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, a search form, and so on.
+<hgroup>	The HTML <hgroup> element represents a multi-level heading for a section of a document. It groups a set of <h1>–<h6> elements.
+<nav>	The HTML <nav> element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.
+<section>	The HTML <section> element represents a generic section of a document, i.e., a thematic grouping of content, typically with a heading.
+Text content
+Use HTML text content elements to organize blocks or sections of content placed between the opening <body> and closing </body> tags. Important for accessibility and SEO, these elements identify the purpose or structure of that content.     
+
+Element	Description
+<dd>	The HTML <dd> element indicates the description of a term in a description list (<dl>).
+<div>	The HTML <div> element is the generic container for flow content and does not inherently represent anything. Use it to group elements for purposes such as styling (using the class or id attributes), marking a section of a document in a different language (using the lang attribute), and so on.
+<dl>	The HTML <dl> element encloses a list of groups of terms and descriptions. Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
+<dt>	The HTML <dt> element identifies a term in a description list. This element can occur only as a child element of a <dl>. It is usually followed by a <dd> element; however, multiple <dt> elements in a row indicate several terms that are all defined by the immediate next <dd> element.
+<figcaption>	The HTML <figcaption> element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the <figure> element which is its immediate ancestor.
+<figure>	The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.
+<hr>	The HTML <hr> element represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section). In previous versions of HTML, it represented a horizontal rule. It may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.
+<li>	The HTML <li> element is used to represent an item in a list. It must be contained in a parent element: an ordered list (<ol>), an unordered list (<ul>), or a menu (<menu>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+<main>	The HTML <main> element represents the main content of  the <body> of a document or application. The main content area consists of content that is directly related to, or expands upon the central topic of a document or the central functionality of an application.
+<ol>	The HTML <ol> element represents an ordered list of items, typically rendered as a numbered list.
+<p>	The HTML <p> element represents a paragraph of text.
+<pre>	The HTML <pre> element represents preformatted text. Text within this element is typically displayed in a non-proportional ("monospace") font exactly as it is laid out in the file. Whitespace inside this element is displayed as typed.
+<ul>	The HTML <ul> element represents an unordered list of items, typically rendered as a bulleted list.
+Inline text semantics
+Use the HTML inline text semantic to define the meaning, structure, or style of a word, line, or any arbitrary piece of text.
+
+Element	Description
+<a>	The HTML <a> element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
+<abbr>	The HTML <abbr> element represents an abbreviation and optionally provides a full description for it. If present, the title attribute must contain this full description and nothing else.
+<b>	The HTML <b> element represents a span of text stylistically different from normal text, without conveying any special importance or relevance, and that is typically rendered in boldface.
+<bdi>	The HTML <bdi> element (bidirectional isolation) isolates a span of text that might be formatted in a different direction from other text outside it.
+<bdo>	The HTML <bdo> element (bidirectional override) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.
+<br>	The HTML <br> element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.
+<cite>	The HTML <cite> element represents a reference to a creative work. It must include the title of a work or a URL reference, which may be in an abbreviated form according to the conventions used for the addition of citation metadata.
+<code>	The HTML <code> element represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.
+<data>	The HTML <data> element links a given content with a machine-readable translation. If the content is time- or date-related, the <time> must be used.
+<dfn>	The HTML <dfn> element represents the defining instance of a term.
+<em>	The HTML <em> element marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating a greater degree of emphasis.
+<i>	The HTML <i> element represents a range of text that is set off from the normal text for some reason, for example, technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type.
+<kbd>	The HTML <kbd> element represents user input and produces an inline element displayed in the browser's default monospace font.
+<mark>	The HTML <mark> element represents highlighted text, i.e., a run of text marked for reference purpose, due to its relevance in a particular context. For example it can be used in a page showing search results to highlight every instance of the searched-for word.
+<q>	The HTML <q> element indicates that the enclosed text is a short inline quotation. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the <blockquote> element.
+<rp>	The HTML <rp> element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the <ruby> element.
+<rt>	The HTML <rt> element embraces pronunciation of characters presented in a ruby annotations, which are used to describe the pronunciation of East Asian characters. This element is always used inside a <ruby> element.
+<rtc>	The HTML <rtc> element embraces semantic annotations of characters presented in a ruby of <rb> elements used inside of <ruby> element. <rb> elements can have both pronunciation (<rt>) and semantic (<rtc>) annotations.
+<ruby>	The HTML <ruby> element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.
+<s>	The HTML <s> element renders text with a strikethrough, or a line through it. Use the <s> element to represent things that are no longer relevant or no longer accurate. However, <s> is not appropriate when indicating document edits; for that, use the <del> and <ins> elements, as appropriate.
+<samp>	The HTML <samp> element is an element intended to identify sample output from a computer program. It is usually displayed in the browser's default monotype font (such as Lucida Console).
+<small>	The HTML <small> element makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.
+<span>	The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.
+<strong>	The HTML <strong> element gives text strong importance, and is typically displayed in bold.
+<sub>	The HTML <sub> element defines a span of text that should be displayed, for typographic reasons, lower, and often smaller, than the main span of text.
+<sup>	The HTML <sup> element defines a span of text that should be displayed, for typographic reasons, higher, and often smaller, than the main span of text.
+<time>	The HTML <time> element represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information).
+<u>	The HTML <u> element renders text with an underline, a line under the baseline of its content. In HTML5, this element represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese text (a Chinese proper name mark), or labeling the text as being misspelled.
+<var>	The HTML <var> element represents a variable in a mathematical expression or a programming context.
+<wbr>	The HTML <wbr> element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.
+Image and multimedia
+HTML supports various multimedia resources such as images, audio, and video.
+
+Element	Description
+<area>	The HTML <area> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <map> element.
+<audio>	The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element; the browser will choose the most suitable one.
+<img>	The HTML <img> element represents an image in the document.
+<map>	The HTML <map> element is used with <area> elements to define an image map (a clickable link area).
+<track>	The HTML <track> element is used as a child of the media elements—<audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks.
+<video>	Use the HTML <video> element to embed video content in a document.
+Embedded content
+In addition to regular multimedia content, HTML can include a variety of other content, even if it's not always easy to interact with.
+
+Element	Description
+<embed>	The HTML <embed> element represents an integration point for an external application or interactive content (in other words, a plug-in).
+<object>	The HTML <object> element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
+<param>	The HTML <param> element defines parameters for an <object> element.
+<source>	The HTML <source> element specifies multiple media resources for either the <picture>, the <audio> or the <video> element. It is an empty element. It is commonly used to serve the same media content in multiple formats supported by different browsers.
+Scripting
+In order to create dynamic content and Web applications, HTML supports the use of scripting languages, most prominently JavaScript. Certain elements support this capability.
+
+Element	Description
+<canvas>	Use the HTML <canvas> element with the canvas scripting API to draw graphics and animations.
+<noscript>	The HTML <noscript> element defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.
+<script>	The HTML <script> element is used to embed or reference an executable script.
+Demarcating edits
+These elements let you provide indications that specific parts of the text have been altered.
+
+Element	Description
+<del>	The HTML <del> element represents a range of text that has been deleted from a document. This element is often (but need not be) rendered with strike-through text.
+<ins>	The HTML <ins> element represents a range of text that has been added to a document.
+Table content
+The elements here are used to create and handle tabular data.
+
+Element	Description
+<caption>	The HTML <caption> element represents the title of a table. Though it is always the first descendant of a <table>, its styling, using CSS, may place it elsewhere, relative to the table.
+<col>	The HTML <col> element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <colgroup> element.
+<colgroup>	The HTML <colgroup> element defines a group of columns within a table.
+<table>	The HTML <table> element represents tabular data —that is, information expressed via a two-dimensional data table.
+<tbody>	The HTML <tbody> element groups one or more <tr> elements as the body of a <table> element.
+<td>	The HTML <td> element defines a cell of a table that contains data. It participates in the table model.
+<tfoot>	The HTML <tfoot> element defines a set of rows summarizing the columns of the table.
+<th>	The HTML <th> element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.
+<thead>	The HTML <thead> element defines a set of rows defining the head of the columns of the table.
+<tr>	The HTML <tr> element defines a row of cells in a table. Those can be a mix of <td> and <th> elements.
+Forms
+HTML provides a number of elements which can be used together to create forms which the user can fill out and submit to the Web site or application. There's a great deal of further information about this available in the HTML forms guide.
+
+Element	Description
+<button>	The HTML <button> element represents a clickable button.
+<datalist>	The HTML <datalist> element contains a set of <option> elements that represent the values available for other controls.
+<fieldset>	The HTML <fieldset> element is used to group several controls as well as labels (<label>) within a web form.
+<form>	The HTML <form> element represents a document section that contains interactive controls to submit information to a web server.
+<input>	The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user. How an <input> works varies considerably depending on the value of its type attribute.
+<label>	The HTML <label> element represents a caption for an item in a user interface.
+<legend>	The HTML <legend> element represents a caption for the content of its parent <fieldset>.
+<meter>	The HTML <meter> element represents either a scalar value within a known range or a fractional value.
+<optgroup>	The HTML <optgroup> element creates a grouping of options within a <select> element.
+<option>	The HTML <option> element is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.
+<output>	The HTML <output> element represents the result of a calculation or user action.
+<progress>	The HTML <progress> element represents the completion progress of a task, typically displayed as a progress bar.
+<select>	The HTML <select> element represents a control that provides a menu of options.
+<textarea>	The HTML <textarea> element represents a multi-line plain-text editing control.
+Interactive elements
+HTML offers a selection of elements which help to create interactive user interface objects.
+
+Element	Description
+<details>	The HTML <details> element is used as a disclosure widget from which the user can retrieve additional information.
+<dialog>	The HTML <dialog> element represents a dialog box or other interactive component, such as an inspector or window.
+<menu>	The HTML <menu> element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.
+<menuitem>	The HTML <menuitem> element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.
+<summary>	The HTML <summary> element is used as a summary, caption, or legend for the content of a <details> element.
+Web Components
+Web Components is an HTML-related technology which makes it possible to, essentially, create and use custom elements as if it were regular HTML. In addition, you can create custom versions of standard HTML elements.
+
+Element	Description
+<shadow>	The HTML <shadow> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components.
+<slot>	The HTML <slot> element is a placeholder inside a web component that you can fill with your own markup, with the effect of composing different DOM trees together.
+<template>	The HTML <template> element is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript. 
+Obsolete and deprecated elements
+Warning: These are old HTML elements which are deprecated and should not be used. You should never use them in new projects, and should replace them in old projects as soon as you can. They are listed here for informational purposes only.
+Element	Description
+<acronym>	The HTML Acronym Element (<acronym>) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word. This element has been removed in HTML5. Use <abbr> element.
+<applet>	The HTML Applet Element (<applet>) identifies the inclusion of a Java applet.
+<basefont>	The HTML basefont element (<basefont>) establishes a default font size for a document. Font size then can be varied relative to the base font size using the <font> element.
+<big>	The HTML Big Element (<big>) makes the text font size one size bigger (for example, from small to medium, or from large to x-large) up to the browser's maximum font size.
+<blink>	The HTML Blink Element (<blink>) is a non-standard element causing the enclosed text to flash slowly.
+<center>	The HTML Center Element (<center>) is a block-level element that can contain paragraphs and other block-level and inline elements. The entire content of this element is centered horizontally within its containing element (typically, the <body>).
+<command>	The command element represents a command which the user can invoke.
+<content>	The HTML <content> element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components. It has now been replaced by the <slot> element.
+<dir>	The HTML directory element (<dir>) represents a directory, namely a collection of filenames.
+<element>	The HTML <element> element is used to define new custom DOM elements.
+<font>	The HTML Font Element (<font>) defines the font size, color and face for its content.
+<frame>	<frame> is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a <frameset>.
+<frameset>	<frameset> is an HTML element which is used to contain <frame> elements.
+<isindex>	<isindex> is an obsolete HTML element that puts a text field in a page for querying the document.
+<keygen>	The HTML <keygen> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <keygen> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.
+<listing>	The HTML Listing Element (<listing>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn't be broken when not greater than 132 characters.
+<marquee>	The HTML <marquee> element is used to insert a scrolling area of text.
+<multicol>	The HTML <multicol> element was an experimental element designed to allow multi-column layouts. It never got any significant traction and is not implemented in any major browsers.
+<nextid>	Technical review completed.
+<noembed>	The <noembed> element is a deprecated and non-standard way to provide alternative, or "fallback", content for browsers that do not support the <embed> element or do not support embedded content an author wishes to use.
+<plaintext>	The HTML Plaintext Element (<plaintext>) renders everything following the start tag as raw text, without interpreting any HTML. There is no closing tag, since everything after it is considered raw text.
+<shadow>	The HTML <shadow> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components.
+<spacer>	<spacer> is an HTML element which is used for inserting white spaces to web pages. It was created by NetScape for achieving same effect as a single-pixel layout GIF image, which was something web designers used to use to add white spaces to web pages, without actually using a GIF. However <spacer> is not supported by any major browser and same effects can be created with various CSS rules. In Mozilla applications, support for this element was removed in Gecko 2.0. Therefore usage of <spacer> is unnecessary.
+<strike>	The HTML <strike> element (or HTML Strikethrough Element) places a strikethrough (horizontal line) over text.
+<tt>	The HTML Teletype Text Element (<tt>) produces an inline element displayed in the browser's default monotype font. This element was intended to style text as it would display on a fixed width display, such as a teletype. It probably is more common to display fixed width type using the <code> element.
+<xmp>	The HTML Example Element (<xmp>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.
+----------------------------------------
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+----------------------------------------------------
+<table style="width:100%">
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+
